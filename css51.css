@@ -1,0 +1,97 @@
+ /* basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #1b1b1b;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .palindrome {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .not-palindrome {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+            /* Navigation Sidebar */
+        nav{
+            height: 100vh;
+            width: 220px; 
+            float: left;
+            padding: 20px;
+            background-color: #ff7b00;
+            line-height: 35px;
+            box-shadow: 3px 0 10px rgba(0,0,0,0.4);
+            border-right: 1px solid #3f3f3f;
+        }
+
+        nav a{
+            display: block;
+            text-decoration: none;
+            color: #e0e0e0;
+            padding: 8px 5px;
+            border-radius: 6px;
+            transition: 0.2s;
+        }
+
+        nav a:hover{
+            background-color: #444;
+            color: white;
+        }
+
+        /* Main Image */
+        #memeImage{
+            display: block;
+            margin: 40px auto;
+            width: 450px;
+            max-width: 90%;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+        }
+
+        /* Footer */
+        footer{
+            text-align: center;
+            margin: 40px 0;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }

@@ -1,0 +1,62 @@
+<!--Matt Casteel, 12/11/2025-->
+<!-- DOCTYPE is the first tag  on the page, it tells the browser this is an HTML5 page-->
+<!DOCTYPE html>
+<!--html tag goes next-->
+<html lang="en">
+    <!--the head section has information for the browser and search engine-->
+<head>
+    <title>CSC102 Home Page</title>
+    <!--add links to css file here-->
+    <link rel="stylesheet" href="Main.css">
+    <script src="index.js"></script>
+</head>
+<!-- the body section holds the text and images that we want to show the user -->
+<body>
+    <!--this section will have things like a menu or logo or page title-->
+    <header>
+         <audio controls>
+        <source src="assets/fishing-reel-sound.mp3">
+    </audio>
+    <button onclick="play()";>Play</button>
+    <button onclick="stop()";>Stop</button>
+    <h1>
+        Welcome to my CSC102 Home Page
+    </h1>
+    <!-- create nav section to hold the menu -->
+     <nav>
+        <a href="index.html">Home</a>
+        <br>
+        <a href="boards.html">Boards</a>
+        <br>
+        <a href="game.html">Game</a>
+        <br>
+        <a href="palindrome.html">Plalindrome</a>
+        <br>
+        <a href="userinput.html">User Input</a>
+        <br>
+        <a href="table.html">Table</a>
+        <br>
+
+     </nav>
+    </header>
+     <button id="startButton"  onclick="start();"> start </button>
+     <button id="stopButton" onclick="stop();"> stop!</button>
+    <br> <br> <br> <br> <br> <br>
+    <div id="countDown"></div>
+
+    <img src="images/reeling.gif" id="imgMeme" style="position: absolute; left: 100; top: 100; width: 200px;"/> 
+     <!-- p is paragraph tag; has spacing by default -->
+    <p>
+        <!-- img is the image tag-->
+        <img id="memeImage" src="images/fisherman.gif">
+
+    
+    </p>
+    
+        <footer>
+            <p>
+                Copyright by MC 2025
+            </p>
+        </footer>
+</body>
+</html>
